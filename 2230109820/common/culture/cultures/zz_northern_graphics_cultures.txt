@@ -1,0 +1,286 @@
+﻿### NORTHERN GRAPHICS EXTENDED - MODIFIED CULTURES ###
+
+
+### GOIDELIC / Q-CELTIC
+
+
+irish = {
+	color = hsv { 0.43 0.86 0.61 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_goidelic
+	language = language_goidelic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_poetry
+		tradition_polygamous
+		tradition_maritime_mercantilism
+		tradition_monastic_communities
+	}
+	
+	name_list = name_list_irish
+	
+	coa_gfx = { irish_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+gaelic = {
+	color = gaelic
+	created = 800.1.1
+	parents = { irish pictish }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_goidelic
+	language = language_goidelic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fishermen
+		tradition_hill_dwellers
+		tradition_highland_warriors
+		tradition_strong_kinship
+		tradition_concubines
+	}
+
+	name_list = name_list_gaelic
+	
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+
+### BRYTHONIC / P-CELTIC - EXCLUDING BRETON (CONTINENTAL, USES WESTERN GRAPHICS)
+
+
+welsh = {
+	color = welsh
+	
+	ethos = ethos_stoic
+	heritage = heritage_brythonic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_concubines
+		tradition_highland_warriors
+		tradition_longbow_competitions
+	}
+	
+	name_list = name_list_welsh
+	
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cornish = {
+	color = hsv { 0.72 0.6 0.72 }
+	
+	ethos = ethos_communal
+	heritage = heritage_brythonic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fishermen
+		tradition_storytellers
+		tradition_ancient_miners
+	}
+	
+	name_list = name_list_cornish
+	
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+pictish = {
+	color = hsv { 0.58 1.00 0.72 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_brythonic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_concubines
+		tradition_poetry
+		tradition_highland_warriors
+		tradition_hill_dwellers
+	}
+	
+	name_list = name_list_pictish
+
+	coa_gfx = { scottish_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+cumbrian = {
+	color = hsv { 0.64 0.6 0.72 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_brythonic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_concubines
+		tradition_highland_warriors
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_cumbrian
+	
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+
+### WEST GERMANIC - NOW INCLUDING FRISIAN
+
+
+anglo_saxon = {
+	color = { 0.8 0.3 0.3 }
+	created = 500.1.1
+	parents = { old_saxon frisian } #Frisian added as parent culture
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_city_keepers
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { northern_unit_gfx } 	
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+old_saxon = {
+	color = { 0.5 0.1 0.1 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_things
+		tradition_seafaring
+		tradition_hird
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_old_saxon
+
+	coa_gfx = { swedish_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx } 	
+
+	ethnicities = {
+		25 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		35 = caucasian_northern_brown_hair
+		25 = caucasian_northern_dark_hair
+	}
+}
+
+frisian = {	#Consider this to be "old frisian", in the times of "Frankish" culture, so 760s and before.
+	# Effectively, this culture isn't playable in game
+	color = { 0.7 0.3 0.0 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic #Frisian now West Germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fishermen
+		tradition_zealous_people
+		tradition_battlefield_looters
+	}
+	
+	name_list = name_list_frisian
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { northern_unit_gfx } 		
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
